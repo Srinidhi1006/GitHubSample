@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: GitHubSampleApi
+  description: API Definition of GitHubSampleApi
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/github
+paths:
+  /:
+    get:
+      responses:
+        default:
+          description: Default response
